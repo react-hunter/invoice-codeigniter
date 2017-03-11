@@ -28,7 +28,5 @@
                        value="<?php echo $this->mdl_families->form_value('family_name'); ?>" />
             </div>
         </div>
-
     </div>
-
 </form>
