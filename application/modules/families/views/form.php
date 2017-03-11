@@ -11,11 +11,11 @@
 
         <input class="hidden" name="is_update" type="hidden"
             <?php if ($this->mdl_families->form_value('is_update')) {
-                echo 'value="1"';
+                echo 'value="1" ';
             } else {
-                echo 'value="0"';
+                echo 'value="0" ';
             } ?>
-        >
+        />
 
         <div class="form-group">
             <div class="col-xs-12 col-sm-2 text-right text-left-xs">
