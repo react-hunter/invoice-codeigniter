@@ -75,7 +75,7 @@
 
                         <div class="controls">
                             <input type="text" name="client_city" id="client_city" class="form-control"
-                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_city')); ?>">
+                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_city')); ?>" />
                         </div>
                     </div>
 
@@ -84,7 +84,7 @@
 
                         <div class="controls">
                             <input type="text" name="client_state" id="client_state" class="form-control"
-                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_state')); ?>">
+                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_state')); ?>" />
                         </div>
                     </div>
 
