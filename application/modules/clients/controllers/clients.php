@@ -178,5 +178,4 @@ class Clients extends Admin_Controller
         $this->mdl_clients->delete($client_id);
         redirect('clients');
     }
-
 }
