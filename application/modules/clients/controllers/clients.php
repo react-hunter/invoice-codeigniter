@@ -27,7 +27,7 @@ class Clients extends Admin_Controller
 
     public function index()
     {
-        // Display active clients by default
+        // Display active clients by default. Please see function status()
         redirect('clients/status/active');
     }
 
