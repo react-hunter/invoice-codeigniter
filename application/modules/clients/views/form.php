@@ -42,7 +42,7 @@
               </span>
                 <input id="client_name" name="client_name" type="text" class="form-control"
                        placeholder="<?php echo lang('client_name'); ?>"
-                       value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_name')); ?>">
+                       value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_name')); ?>" />
             </div>
         </fieldset>
 
@@ -57,7 +57,7 @@
 
                         <div class="controls">
                             <input type="text" name="client_address_1" id="client_address_1" class="form-control"
-                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_address_1')); ?>">
+                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_address_1')); ?>" />
                         </div>
                     </div>
 
@@ -66,7 +66,7 @@
 
                         <div class="controls">
                             <input type="text" name="client_address_2" id="client_address_2" class="form-control"
-                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_address_2')); ?>">
+                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_address_2')); ?>" />
                         </div>
                     </div>
 
