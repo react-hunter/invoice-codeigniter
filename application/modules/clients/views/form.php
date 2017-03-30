@@ -179,7 +179,7 @@
 
                         <div class="controls">
                             <input type="text" name="client_vat_id" id="client_vat_id" class="form-control"
-                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_vat_id')); ?>">
+                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_vat_id')); ?>" />
                         </div>
                     </div>
 
@@ -188,7 +188,7 @@
 
                         <div class="controls">
                             <input type="text" name="client_tax_code" id="client_tax_code" class="form-control"
-                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_tax_code')); ?>">
+                                   value="<?php echo htmlspecialchars($this->mdl_clients->form_value('client_tax_code')); ?>" />
                         </div>
                     </div>
 
@@ -210,7 +210,7 @@
                                     <input type="text" class="form-control"
                                            name="custom[<?php echo $custom_field->custom_field_column; ?>]"
                                            id="<?php echo $custom_field->custom_field_column; ?>"
-                                           value="<?php echo form_prep($this->mdl_clients->form_value('custom[' . $custom_field->custom_field_column . ']')); ?>">
+                                           value="<?php echo form_prep($this->mdl_clients->form_value('custom[' . $custom_field->custom_field_column . ']')); ?>" />
                                 </div>
                             </div>
                         <?php } ?>
